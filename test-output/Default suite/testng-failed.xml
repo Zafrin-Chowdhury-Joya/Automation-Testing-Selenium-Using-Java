@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="WebElements_Locators.LocateByLinkText">
+      <class name="Action_And_Select_Class.ScrollUpAndDown">
         <methods>
-          <include name="closeChromeBrowser"/>
-          <include name="openUrl"/>
-          <include name="startChromeBrowser"/>
-          <include name="locateByLinkText"/>
+          <include name="SpecificLocation"/>
+          <include name="closeBrowser"/>
+          <include name="OpenUrl"/>
+          <include name="startBrowser"/>
         </methods>
-      </class> <!-- WebElements_Locators.LocateByLinkText -->
+      </class> <!-- Action_And_Select_Class.ScrollUpAndDown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
