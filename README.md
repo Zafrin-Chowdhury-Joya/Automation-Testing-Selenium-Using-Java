@@ -1,5 +1,5 @@
 ### **Automation Testing - Selenium Using JAVA**
-This project 
+This repository is the complete overview of my automation knowledge.
 
 ### **Prerequisite:**
 1. [JAVA JDK](https://www.oracle.com/java/technologies/downloads/?er=221886)
