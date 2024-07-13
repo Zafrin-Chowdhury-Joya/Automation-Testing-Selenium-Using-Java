@@ -1,4 +1,3 @@
-
 package Action_And_Select_Class;
 
 import org.openqa.selenium.By;
@@ -15,12 +14,16 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class CopyAndPaste {
+public class Select {
 	protected static String url = "https://www.tutorialspoint.com/selenium/practice/register.php";
 	   
 	  WebDriver driver;
 	  
-	  @BeforeSuite
+	  public Select(WebElement selectState) {
+		// TODO Auto-generated constructor stub
+	}
+
+	@BeforeSuite
 	  public void startBrowser()
 
 	  {
@@ -36,37 +39,20 @@ public class CopyAndPaste {
 		 
 	  }
 		@Test
-		public void copyAndPaste () throws InterruptedException
-		{
-			Actions actions = new Actions(driver);
-			WebElement firstName = driver.findElement(By.xpath("//input[@id='firstname']"));
-			firstName.sendKeys("Chowdhury");
+       public void selectState ()
+       {
+			WebElement selectState = driver.findElement(By.id("state"));
+			Select select = new Select (selectState);
+			select.selectByIndex(2);
 			
-			
-			actions.keyDown(Keys.CONTROL);
-			actions.sendKeys("a");
-			actions.keyUp(Keys.CONTROL);
-			actions.build().perform();
-			
-			
-			actions.keyDown(Keys.CONTROL);
-			actions.sendKeys("c");
-			actions.keyUp(Keys.CONTROL);
-			actions.build().perform();
-			Thread.sleep(3000);
-			
-			actions.sendKeys(Keys.TAB);
-			actions.build().perform();
-			Thread.sleep(3000);
-			
-			
-			actions.keyDown(Keys.CONTROL);
-			actions.sendKeys("v");
-			actions.keyUp(Keys.CONTROL);
-			actions.build().perform();
-		}
+       }
 	  
-	  @AfterSuite
+	  private void selectByIndex(int i) {
+			// TODO Auto-generated method stub
+			
+		}
+
+	@AfterSuite
 	  public void closeBrowser()
 	  {
 		  driver.close();
