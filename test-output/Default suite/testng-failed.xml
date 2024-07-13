@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Action_And_Select_Class.ScrollUpAndDown">
+      <class name="BrowserCommands.getTitle">
         <methods>
-          <include name="SpecificLocation"/>
-          <include name="closeBrowser"/>
-          <include name="OpenUrl"/>
-          <include name="startBrowser"/>
+          <include name="openUrl"/>
+          <include name="getCurrentURL"/>
+          <include name="startChromeBrowser"/>
+          <include name="closeChromeBrowser"/>
         </methods>
-      </class> <!-- Action_And_Select_Class.ScrollUpAndDown -->
+      </class> <!-- BrowserCommands.getTitle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
