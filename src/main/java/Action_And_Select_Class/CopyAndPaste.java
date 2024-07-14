@@ -53,7 +53,7 @@ public class CopyAndPaste {
 			actions.sendKeys("c");
 			actions.keyUp(Keys.CONTROL);
 			actions.build().perform();
-			Thread.sleep(3000);
+			
 			
 			actions.sendKeys(Keys.TAB);
 			actions.build().perform();
