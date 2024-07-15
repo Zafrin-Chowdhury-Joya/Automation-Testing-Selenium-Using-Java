@@ -109,6 +109,7 @@ BeforeSuite - BeforeTest - BeforeClass - BeforeMethod - Test - AfterMethod - Aft
   - 02 - 04 [Locate by Partial Link](https://github.com/Zafrin-Chowdhury-Joya/Automation-Testing-Selenium-Using-Java/blob/main/src/main/java/WebElements_Locators/LocateByPartialLink.java)
   - 02 - 05 [Locate by Tag Name](https://github.com/Zafrin-Chowdhury-Joya/Automation-Testing-Selenium-Using-Java/blob/main/src/main/java/WebElements_Locators/LocateByTagName.java)
   - 02 - 06 [Locate by CSS Selector](https://github.com/Zafrin-Chowdhury-Joya/Automation-Testing-Selenium-Using-Java/blob/main/src/main/java/WebElements_Locators/LocateByCSS_Selector.java)
+  - 02 - 07 [Locate by Xpath](https://github.com/Zafrin-Chowdhury-Joya/Automation-Testing-Selenium-Using-Java/blob/main/src/main/java/WebElements_Locators/LocateByXpath.java)
 
 ### 03 - Tab and Window Handling
   - 03 - 00 [Tab Handling](https://github.com/Zafrin-Chowdhury-Joya/Automation-Testing-Selenium-Using-Java/blob/main/src/main/java/TabOrWindowHandling/TabHandling.java) 
@@ -118,8 +119,7 @@ BeforeSuite - BeforeTest - BeforeClass - BeforeMethod - Test - AfterMethod - Aft
   - 04 - 00 [Simple Alert](https://github.com/Zafrin-Chowdhury-Joya/Automation-Testing-Selenium-Using-Java/blob/main/src/main/java/Handling_Alerts_and_PopUps/SimpleAlert.java)
   - 04 - 01 [Simple Alert After Five Seconds](https://github.com/Zafrin-Chowdhury-Joya/Automation-Testing-Selenium-Using-Java/blob/main/src/main/java/Handling_Alerts_and_PopUps/SimpleAlertAfterFiveSeconds.java)
   - 04 - 02 [Simple Alert With Confirm Box](https://github.com/Zafrin-Chowdhury-Joya/Automation-Testing-Selenium-Using-Java/blob/main/src/main/java/Handling_Alerts_and_PopUps/SimpleAlertWithConfirmBox.java)
-  - 04 - 03 [Simple ALert With Promt Box](https://github.com/Zafrin-Chowdhury-Joya/Automation-Testing-Selenium-Using-Java/blob/main/src/main/java/Handling_Alerts_and_PopUps/SimpleAlertWithPromtBox.java)
-  
+  - 04 - 03 [Simple ALert With Promt Box](https://github.com/Zafrin-Chowdhury-Joya/Automation-Testing-Selenium-Using-Java/blob/main/src/main/java/Handling_Alerts_and_PopUps/SimpleAlertWithPromtBox.java) 
 ### 05 - Waits in Selenium
   - 05 - 00 [Explicit Waits](https://github.com/Zafrin-Chowdhury-Joya/Automation-Testing-Selenium-Using-Java/blob/main/src/main/java/Waits_And_IFrameHandling/ExplicitWaits.java)
 ### 06 - IFrame Handling
@@ -132,6 +132,12 @@ BeforeSuite - BeforeTest - BeforeClass - BeforeMethod - Test - AfterMethod - Aft
   - 08 - 01 [Copy and Paste Using Action Class ](https://github.com/Zafrin-Chowdhury-Joya/Automation-Testing-Selenium-Using-Java/blob/main/src/main/java/Action_And_Select_Class/CopyAndPaste.java)
 ### 09 - Scroll In Selenium
   - 09 - 00 [Scroll Sepecific Area, Up And Down  ](https://github.com/Zafrin-Chowdhury-Joya/Automation-Testing-Selenium-Using-Java/blob/main/src/main/java/Action_And_Select_Class/ScrollUpAndDown.java)
+### 10 - Interacting with WebElement
+  Sendkeys, Clear, Click, Get Attribute, Back, Forward & Refresh
+  - 10 - 00 [Interacting WebElements](https://github.com/Zafrin-Chowdhury-Joya/Automation-Testing-Selenium-Using-Java/blob/main/src/main/java/InteractingWithWebElements/WebElementExamples.java)
+  - 10 - 01 [Navigation Test](https://github.com/Zafrin-Chowdhury-Joya/Automation-Testing-Selenium-Using-Java/blob/main/src/main/java/WebPages/navigationTest.java)
+### 11 - Browser Commands
+  - 11 - 00 [Get Title](https://github.com/Zafrin-Chowdhury-Joya/Automation-Testing-Selenium-Using-Java/blob/main/src/main/java/BrowserCommands/getTitle.java)
+  - 11 - 01 [Get Current URL](https://github.com/Zafrin-Chowdhury-Joya/Automation-Testing-Selenium-Using-Java/blob/main/src/main/java/BrowserCommands/getCurrentUrl.java)
 
- 
 
